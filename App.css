@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Header {
+    font-size: 35px;
+}
+
+.ConnectWalletButton {
+    font-size: large;
+    height: fit-content;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.AccountAddress {
+    font-size: large;
+}
+
+.AddTaskForm {
+    display: flex;
+    flex-direction: column;
+    border-style: dashed;
+    padding: 10px;
+}
+
+.TaskFormText {
+    text-align: left;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+
+.TaskFormTitle {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.AddTaskButton {
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: medium;
+    width: 150px;
+}
+
+.TaskTable {
+    border-style: dashed;
+    padding: 10px;
+    margin-top: 15px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.InputSection {
+    padding: 7px;
+}
